@@ -5,8 +5,8 @@ Of course the code here presented is not restricted to blood clot simulations.
 The language used is Python 3.9.12 and the DL architecture is written using the API Keras of Tensorflow.
 
 ## Directories
-[POD-DL-ROM](https://github.com/Aleartulon/rom4clot/tree/main/POD-DL-ROM%20): The code for POD-DL-ROM as in [1] is constructed, for data preparation, training and testing.  
-[LOCALIZED-POD-DL-ROM](https://github.com/Aleartulon/rom4clot/tree/master/LOCALIZED-POD-DL-ROM): The code for POD-DL-ROM is left unchanged, but we perform an a priori clustering which divides the snapshots in clusters, highlighting the different regimes in time/parameters. It also contains the code for the Classifier.
+[POD-DL-ROM](POD-DL-ROM): The code for POD-DL-ROM as in [1] is constructed, for data preparation, training and testing.  
+[LOCALIZED-POD-DL-ROM](LOC-POD-DL): The code for POD-DL-ROM is left unchanged, but we perform an a priori clustering which divides the snapshots in clusters, highlighting the different regimes in time/parameters. It also contains the code for the Classifier.
 
 ## References
 [[1](https://www.sciencedirect.com/science/article/pii/S0045782521005120)] S. Fresca and A. Manzoni, “POD-DL-ROM: Enhancing deep learning-based reduced order models for nonlinear parametrized PDEs by proper orthogonal decomposition,” Computer Methods in Applied Mechanics and Engineering, 2022.  
